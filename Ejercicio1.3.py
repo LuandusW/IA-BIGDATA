@@ -3,5 +3,6 @@
 
 a = 10;
 b = 20;
-a = b
-print(f"{a}");
+print(f"A vale {a} y B vale {b}");
+a,b = b,a
+print(f"Tras cambiar A vale: {a} y B vale {b}");
